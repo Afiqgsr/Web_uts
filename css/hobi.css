@@ -1,0 +1,131 @@
+/* Bagian header*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    background-color: #A91B60;
+    color: #EBE0D0;
+    align-items: center;
+    padding: 20px;
+}
+
+.link {
+    position: absolute;
+     right: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#A91B60;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #EBE0D0;
+}
+
+.navbar li a.active {
+    background-color: #EBE0D0;
+    color: #FF0080;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: #EBE0D0;
+}
+
+.navbar li:hover a{
+    color:#FF0080;
+}
+
+
+/* Bagian isi container */
+.container {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.isi {
+    padding: 30px;
+    text-align: center;
+}
+
+.isi h2{
+    color: #EBE0D0;
+}
+
+.card {
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.membaca {
+    border-radius: 10px;
+    background-color: #EBE0D0;
+    width: 40%;
+    box-shadow: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.membaca h2{
+    color: #FF0080;
+}
+
+.membaca p{
+    color: #FF0080;
+}
+
+.membaca,
+.bermain {
+    width: 48%;
+}
+
+.bermain {
+    border-radius: 10px;
+    background-color: #EBE0D0;
+    width: 50%;
+    box-shadow: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+    text-align: center;
+    margin-left: auto;
+}
+
+.bermain h2{
+    color: #FF0080;
+}
+
+.bermain p{
+    color: #FF0080;
+}
+
+/* Bagian Footer*/
+
+footer {
+    background-color: #EBE0D0;
+    color: #A91B60;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,119 @@
+/* Bagian header*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    background-color: #A91B60;
+    color: #EBE0D0;
+    align-items: center;
+    padding: 20px;
+}
+
+.link {
+    position: absolute;
+     right: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#A91B60;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #EBE0D0;
+}
+
+.navbar li a.active {
+    background-color: #EBE0D0;
+    color: #FF0080;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: #EBE0D0;
+}
+
+.navbar li:hover a{
+    color:#FF0080;
+}
+
+
+/* Bagian isi container */
+.container {
+    margin: 0px;
+    padding: 0px;
+    background-color:#FF0080;
+}
+
+/* Bagian Profile */
+.profil {
+    text-align: center;
+    padding: 50px;
+    background-color: #EC9EC0;
+}
+
+.profil h2 {
+    color: #EBE0D0;
+}
+
+/* Untuk bagian card profile*/
+.card {
+    background-color: #FF0080;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.card img {
+    width: 100px; 
+    border-radius: 50%; 
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #EC9EC0;
+}
+
+.card p {
+    color: #EBE0D0;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    margin-bottom: 5px;
+    color: #EBE0D0;
+}
+
+/* Bagian Footer*/
+
+footer {
+    background-color: #EBE0D0;
+    color: #A91B60;
+    text-align: center;
+    padding: 10px;
+}

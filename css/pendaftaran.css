@@ -1,0 +1,133 @@
+/* Bagian header*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navigasi {
+    display: flex;
+    background-color: #A91B60;
+    color: #EBE0D0;
+    align-items: center;
+    padding: 20px;
+}
+
+.link {
+    position: absolute;
+     right: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#A91B60;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #EBE0D0;
+}
+
+.navbar li a.active {
+    background-color: #EBE0D0;
+    color: #FF0080;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: #EBE0D0;
+}
+
+.navbar li:hover a{
+    color:#FF0080;
+}
+
+
+/* Bagian isi container */
+.container {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('gambar/es krim.jpg');
+    background-position: center;
+}
+
+.isi {
+    padding: 50px;
+    text-align: center;
+}
+/* Bagian card pendaftaran */
+.card {
+    padding: 10px;
+    background-color: #EBE0D0;
+    opacity: 0.8;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.card h2{
+    color: #FF0080;
+}
+
+.form {
+    width: 300px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #A91B60; /* Border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    background-color: #FF0080;
+    border: none;
+    color: #EBE0D0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #EBE0D0;
+}
+
+button:hover {
+    background-color: #A91B60;
+}
+
+button:hover a{
+    color: #EBE0D0;
+}
+
+
+/* Bagian Footer*/
+
+footer {
+    background-color: #EBE0D0;
+    color: #A91B60;
+    text-align: center;
+    padding: 10px;
+}
